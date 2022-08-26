@@ -1,0 +1,185 @@
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+
+
+.banner {
+  position: relative;
+  align-items: center;
+}
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('https://marketplace.canva.com/dWF3k/MAFCI6dWF3k/1/s2/canva-mushrooms-on-vibrant-background-MAFCI6dWF3k.jpg');
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.6;
+    padding-top:300px;
+  }
+
+
+.greeting {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 150px;
+  font-size: 4.5rem;
+
+}
+
+.greeting2{
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:500;
+  font-size: 3rem;
+
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.about_txt{
+  text-align:center;
+  padding-left: 135px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 978px) {
+    .about_txt {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .about_img{
+      padding-bottom:50px;
+    }
+
+}
+
+.about_img{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:70px;
+  width:48%;
+
+}
+
+.about_box{
+  padding-top:80px;
+}
+
+
+.about_title{
+  font-size:3rem;
+  color:#4C88B8
+
+
+}
+
+.about_info{
+  font-size:1.35rem;
+  color:#E58A76
+
+
+}
+
+
+
+
+.navbar{
+  /* background-color: #FBCEB8;
+  opacity:0.7; */
+}
+
+.navbar-brand{
+  font-size: 1.75rem;
+  opacity:1;
+  padding-left: 20px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 1;
+}
+
+
+#my-work{
+  background-color: #4C88B8;
+}
+
+
+.work-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.work-text{
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight:300;
+  color:white;
+}
+
+
+.work-title{
+  padding-top: 50px;
+  color:white;
+  font-size:3.5rem;
+  line-height:1.5;
+}
+
+.git-link{
+  color:white;
+  background-color:#4C88B8;
+  font-size:4rem;
+  padding-bottom: 50px;
+  margin-top:10px;
+
+
+}
+
+.git-link:hover{
+  color:black;
+  transform:scale(1.2);
+
+
+
+}
+
+#contact-me{
+  background-color: white;
+}
+
+.contact-title{
+  padding-top: 60px;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #4C88B8;
+  padding-bottom: 50px;
+}
+
+.contact-icon{
+  color:#E58A76;
+  font-size:3rem;
+  padding:0 2% 5%;
+}
+
+.contact-icon:hover{
+  color:black;
+  transform:scale(1.2);
+}
