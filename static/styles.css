@@ -79,6 +79,13 @@ body {
 
 }
 
+@media (max-width:940px){
+  .about_info{
+    font-size:1.3rem;
+  }
+}
+
+
 
 
 
