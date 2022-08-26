@@ -54,6 +54,14 @@ body {
   padding-bottom: 30px;
 }
 
+
+
+.about_info{
+  font-size:1rem;
+  color:#E58A76
+}
+
+
 @media (max-width: 978px) {
     .about_txt {
       padding-left: 15%;
@@ -62,6 +70,9 @@ body {
     .about_img{
       padding-bottom:50px;
     }
+    .about_info{
+    font-size:1.5rem;
+    text-align:center;}
 
 }
 
@@ -81,13 +92,6 @@ body {
 .about_title{
   font-size:3rem;
   color:#4C88B8
-
-
-}
-
-.about_info{
-  font-size:1rem;
-  color:#E58A76
 
 
 }
