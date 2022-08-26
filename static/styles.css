@@ -44,58 +44,37 @@ body {
 
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 7%;}
+
+
+.about-container{
+  padding-top:60px;
+  padding-bottom:30px;
 }
 
 
-.about_txt{
-  text-align:center;
-  padding-left: 135px;
-  padding-bottom: 30px;
-}
 
-
-
-.about_info{
-  font-size:1rem;
-  color:#E58A76
-}
-
-
-@media (max-width: 978px) {
-    .about_txt {
-      padding-left: 15%;
-      padding-right: 15%;
-      text-align:center;
-
-    }
-    .about_img{
-      padding-bottom:50px;
-    }
-    .about_info{
-    font-size:2rem;}
-
-    about_box{
-    text-align:center;}
-
-}
 
 .about_img{
-  text-align: center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   padding-top:30px;
-  padding-bottom:70px;
-  width:48%;
-
 }
-
-.about_box{
-  padding-top:80px;
-}
-
 
 .about_title{
   font-size:3rem;
-  color:#4C88B8
+  color:#4C88B8;
+  text-align:center;
+  padding-bottom:30px;
+
+
+}
+
+.about_info{
+  font-size:1.1rem;
+  color:#E58A76;
+  text-align:center;
 
 
 }
@@ -109,7 +88,7 @@ body {
 }
 
 .navbar-brand{
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   opacity:1;
   padding-left: 20px;
 }
@@ -119,7 +98,7 @@ body {
 }
 
 .nav-link{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   opacity: 1;
 }
