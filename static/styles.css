@@ -66,13 +66,14 @@ body {
     .about_txt {
       padding-left: 15%;
       padding-right: 15%;
+      text-align:center;
+
     }
     .about_img{
       padding-bottom:50px;
     }
     .about_info{
-    font-size:1.5rem;
-    text-align:center;}
+    font-size:1.5rem;}
 
 }
 
