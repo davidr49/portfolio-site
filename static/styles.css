@@ -75,6 +75,9 @@ body {
     .about_info{
     font-size:2rem;}
 
+    about_box{
+    text-align:center;}
+
 }
 
 .about_img{
