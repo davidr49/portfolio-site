@@ -121,6 +121,15 @@ body {
   padding-top:25px;
 }
 
+.site-link{
+    color:white;
+}
+
+.site-link:hover{
+    color:black;
+    transform:scale(1.1);
+}
+
 .work-text{
   font-size: 2.5rem;
   line-height: 1.5;
